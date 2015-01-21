@@ -78,7 +78,8 @@ public class MainFrame extends javax.swing.JFrame {
         chooseFileLabel.setText("Plik do obrobki");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
-        gridBagConstraints.weightx = 0.3;
+        gridBagConstraints.weightx = 0.2;
+        gridBagConstraints.weighty = 0.2;
         buttonPanel.add(chooseFileLabel, gridBagConstraints);
 
         chooseFileButton.setText("Wybierz plik");
@@ -89,6 +90,7 @@ public class MainFrame extends javax.swing.JFrame {
         });
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
+        gridBagConstraints.weightx = 0.2;
         gridBagConstraints.weighty = 0.2;
         buttonPanel.add(chooseFileButton, gridBagConstraints);
 
@@ -97,6 +99,7 @@ public class MainFrame extends javax.swing.JFrame {
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 1;
         gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
+        gridBagConstraints.weightx = 0.2;
         gridBagConstraints.weighty = 0.2;
         buttonPanel.add(supportLabel, gridBagConstraints);
 
@@ -105,6 +108,7 @@ public class MainFrame extends javax.swing.JFrame {
         gridBagConstraints.gridx = 1;
         gridBagConstraints.gridy = 1;
         gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
+        gridBagConstraints.weightx = 0.2;
         gridBagConstraints.weighty = 0.2;
         buttonPanel.add(supportTextField, gridBagConstraints);
 
@@ -113,6 +117,7 @@ public class MainFrame extends javax.swing.JFrame {
         gridBagConstraints.gridx = 0;
         gridBagConstraints.gridy = 2;
         gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
+        gridBagConstraints.weightx = 0.2;
         gridBagConstraints.weighty = 0.2;
         buttonPanel.add(confidenceLabel, gridBagConstraints);
 
@@ -121,6 +126,7 @@ public class MainFrame extends javax.swing.JFrame {
         gridBagConstraints.gridx = 1;
         gridBagConstraints.gridy = 2;
         gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
+        gridBagConstraints.weightx = 0.2;
         gridBagConstraints.weighty = 0.2;
         buttonPanel.add(confidenceTextField, gridBagConstraints);
 
