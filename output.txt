@@ -1,73 +1,125 @@
 Large ItemSets (decreasing order of support) :
 
-[Closed], 67.97300089537846%
-[Cleaning crew dispatched.  Property cleaned.], 62.56629244438322%
-[Open], 30.794131827260827%
-[MANHATTAN], 28.576348233349403%
-[BROOKLYN], 27.02665472828707%
-[QUEENS], 23.562228803636614%
-[MANHATTAN, Closed], 23.27984020938081%
-[BRONX], 19.443487843515395%
-[Cleaning crew dispatched.  Property cleaned., BROOKLYN], 18.444796473586337%
-[BROOKLYN, Cleaning crew dispatched.  Property cleaned., Closed], 18.121082719195535%
-[MANHATTAN, Cleaning crew dispatched.  Property cleaned., Closed], 17.59074316412976%
-[Site downloaded for cleaning], 15.097458502651698%
-[Cleaning crew dispatched.  Property cleaned., QUEENS], 13.995454232385152%
-[Cleaning crew dispatched.  Property cleaned., Closed, QUEENS], 13.823266065156004%
-[BRONX, Closed], 11.171568289827123%
-[BRONX, Cleaning crew dispatched.  Property cleaned., Closed], 11.020042702665473%
-[Unspecified], 10.599903574626351%
-[BRONX, Open], 7.720917418554997%
-[Notice of Intent to Clean and Forever Graffiti Free Form sent, Open], 7.59694193815001%
-[Notice of Intent to Clean and Forever Graffiti Free Form sent], 7.59694193815001%
+[Humanities & Interdisciplinary], 31.48148148148148%
+[Brooklyn], 30.484330484330485%
+[Limited Unscreened], 29.772079772079774%
+[L], 29.772079772079774%
+[Ed. Opt.], 24.501424501424502%
+[E], 24.501424501424502%
+[Screened], 22.64957264957265%
+[S], 22.64957264957265%
+[Queens], 21.65242165242165%
+[Manhattan], 20.37037037037037%
+[Bronx], 19.8005698005698%
+[Limited Unscreened, Humanities & Interdisciplinary], 14.245014245014245%
+[Limited Unscreened, L, Humanities & Interdisciplinary], 14.245014245014245%
+[Zoned], 10.826210826210826%
+[Limited Unscreened, Brooklyn, L], 10.541310541310542%
+[Performing Arts], 10.3988603988604%
+[Audition], 10.113960113960115%
+[A], 10.113960113960115%
+[Limited Unscreened, L, Bronx], 9.82905982905983%
+[L, Bronx], 9.82905982905983%
+[Brooklyn, Humanities & Interdisciplinary], 9.401709401709402%
+[Science & Math], 8.68945868945869%
+[S, Humanities & Interdisciplinary], 8.262108262108262%
+[Brooklyn, Ed. Opt.], 7.6923076923076925%
+[E, Brooklyn, Ed. Opt.], 7.6923076923076925%
+[E, Brooklyn], 7.6923076923076925%
+[A, Performing Arts], 7.54985754985755%
+[Staten Island], 7.54985754985755%
 
 
 High-Confidence Rules (decreasing order of confidence) with support(LHS union RHS) :
 
-[Notice of Intent to Clean and Forever Graffiti Free Form sent] ==> [Open] (Conf: 100.0%, Supp: 7.59694193815001%)
-[Site downloaded for cleaning] ==> [Open] (Conf: 100.0%, Supp: 15.097458502651698%)
-[Cleaning crew dispatched.  Property cleaned., BROOKLYN] ==> [Closed] (Conf: 98.24495892457058%, Supp: 18.121082719195535%)
-[Cleaning crew dispatched.  Property cleaned.] ==> [Closed] (Conf: 98.05151915455747%, Supp: 61.34720022040086%)
-[Closed] ==> [Cleaning crew dispatched.  Property cleaned.] (Conf: 90.25230519809504%, Supp: 61.34720022040086%)
-[MANHATTAN] ==> [Closed] (Conf: 81.46541335261509%, Supp: 23.27984020938081%)
-[BROOKLYN] ==> [Closed] (Conf: 68.96024464831805%, Supp: 18.63764722088298%)
-[BROOKLYN] ==> [Cleaning crew dispatched.  Property cleaned.] (Conf: 68.2466870540265%, Supp: 18.444796473586337%)
-[MANHATTAN] ==> [Cleaning crew dispatched.  Property cleaned.] (Conf: 62.15955651964329%, Supp: 17.762931331358907%)
-[QUEENS] ==> [Closed] (Conf: 59.719380298158434%, Supp: 14.071217025965977%)
-[BRONX] ==> [Cleaning crew dispatched.  Property cleaned.] (Conf: 59.51115834218916%, Supp: 11.571044837798746%)
-[BRONX] ==> [Closed] (Conf: 57.456606447042155%, Supp: 11.171568289827123%)
-[Open] ==> [Site downloaded for cleaning] (Conf: 49.02706329680161%, Supp: 15.097458502651698%)
-[BRONX, Open] ==> [Site downloaded for cleaning] (Conf: 46.654772524531666%, Supp: 3.6021764584337763%)
-[Closed] ==> [MANHATTAN] (Conf: 34.24865741209849%, Supp: 23.27984020938081%)
-[Notice of Intent to Clean and Forever Graffiti Free Form sent] ==> [QUEENS] (Conf: 32.910244786944695%, Supp: 2.500172188167229%)
-[Site downloaded for cleaning] ==> [QUEENS] (Conf: 29.972627737226276%, Supp: 4.52510503478201%)
-[Cleaning crew dispatched.  Property cleaned.] ==> [BROOKLYN] (Conf: 29.480405107881992%, Supp: 18.444796473586337%)
-[Notice of Intent to Clean and Forever Graffiti Free Form sent] ==> [BRONX] (Conf: 29.193109700815956%, Supp: 2.2177835939114265%)
-[Notice of Intent to Clean and Forever Graffiti Free Form sent, Open] ==> [BRONX] (Conf: 29.193109700815956%, Supp: 2.2177835939114265%)
-[Site downloaded for cleaning] ==> [BROOKLYN] (Conf: 28.51277372262774%, Supp: 4.3047041807287005%)
-[Cleaning crew dispatched.  Property cleaned.] ==> [MANHATTAN] (Conf: 28.39057683839718%, Supp: 17.762931331358907%)
-[Closed] ==> [BROOKLYN] (Conf: 27.41919140743743%, Supp: 18.63764722088298%)
-[Open] ==> [BROOKLYN] (Conf: 26.168642361887724%, Supp: 8.058406226324127%)
-[Unspecified] ==> [Closed] (Conf: 25.583090379008745%, Supp: 2.417521867897238%)
-[Open] ==> [BRONX] (Conf: 25.072690673227466%, Supp: 7.720917418554997%)
-[Unspecified] ==> [QUEENS] (Conf: 23.97959183673469%, Supp: 2.265996280735588%)
-[Site downloaded for cleaning] ==> [BRONX] (Conf: 23.85948905109489%, Supp: 3.6021764584337763%)
-[Notice of Intent to Clean and Forever Graffiti Free Form sent] ==> [BROOKLYN] (Conf: 23.30009066183137%, Supp: 1.7700943591156415%)
-[Notice of Intent to Clean and Forever Graffiti Free Form sent, Open] ==> [BROOKLYN] (Conf: 23.30009066183137%, Supp: 1.7700943591156415%)
-[Open] ==> [Unspecified] (Conf: 22.813688212927758%, Supp: 7.025277222949239%)
-[BRONX, Open] ==> [Unspecified] (Conf: 22.658340767172167%, Supp: 1.749431779048144%)
-[Closed] ==> [QUEENS] (Conf: 20.70118553044888%, Supp: 14.071217025965977%)
-[Unspecified] ==> [Cleaning crew dispatched.  Property cleaned.] (Conf: 20.55393586005831%, Supp: 1.9422825263447896%)
-[Unspecified] ==> [BRONX] (Conf: 19.6064139941691%, Supp: 1.8527446793856328%)
-[QUEENS] ==> [Site downloaded for cleaning] (Conf: 19.204910844782226%, Supp: 4.52510503478201%)
-[Unspecified] ==> [BROOKLYN] (Conf: 18.658892128279884%, Supp: 1.7632068324264758%)
-[BRONX] ==> [Site downloaded for cleaning] (Conf: 18.526390364860077%, Supp: 3.6021764584337763%)
-[Cleaning crew dispatched.  Property cleaned.] ==> [BRONX] (Conf: 18.494055482166445%, Supp: 11.571044837798746%)
-[MANHATTAN] ==> [Open] (Conf: 17.932031814895154%, Supp: 5.124319856739445%)
-[Open] ==> [MANHATTAN] (Conf: 16.64057257884142%, Supp: 5.124319856739445%)
-[Closed] ==> [BRONX] (Conf: 16.435302462255546%, Supp: 11.171568289827123%)
-[Notice of Intent to Clean and Forever Graffiti Free Form sent] ==> [MANHATTAN] (Conf: 13.236627379873072%, Supp: 1.0055788966182244%)
-[Notice of Intent to Clean and Forever Graffiti Free Form sent, Open] ==> [MANHATTAN] (Conf: 13.236627379873072%, Supp: 1.0055788966182244%)
-[MANHATTAN] ==> [Unspecified] (Conf: 12.002892263195951%, Supp: 3.4299882912046282%)
-[BRONX] ==> [Notice of Intent to Clean and Forever Graffiti Free Form sent] (Conf: 11.40630534891959%, Supp: 2.2177835939114265%)
-[QUEENS] ==> [Notice of Intent to Clean and Forever Graffiti Free Form sent] (Conf: 10.610932475884244%, Supp: 2.500172188167229%)
+[L, Bronx] ==> [Limited Unscreened] (Conf: 100.0%, Supp: 9.82905982905983%)
+[E] ==> [Ed. Opt.] (Conf: 100.0%, Supp: 24.501424501424502%)
+[S] ==> [Screened] (Conf: 100.0%, Supp: 22.64957264957265%)
+[Audition] ==> [A] (Conf: 100.0%, Supp: 10.113960113960115%)
+[Limited Unscreened] ==> [L] (Conf: 100.0%, Supp: 29.772079772079774%)
+[Ed. Opt.] ==> [E] (Conf: 100.0%, Supp: 24.501424501424502%)
+[S, Humanities & Interdisciplinary] ==> [Screened] (Conf: 100.0%, Supp: 8.262108262108262%)
+[A, Performing Arts] ==> [Audition] (Conf: 100.0%, Supp: 7.54985754985755%)
+[Limited Unscreened, Humanities & Interdisciplinary] ==> [L] (Conf: 100.0%, Supp: 14.245014245014245%)
+[Screened] ==> [S] (Conf: 100.0%, Supp: 22.64957264957265%)
+[Performing Arts] ==> [Audition] (Conf: 76.81159420289855%, Supp: 7.54985754985755%)
+[A] ==> [Performing Arts] (Conf: 74.64788732394366%, Supp: 7.54985754985755%)
+[Audition] ==> [Performing Arts] (Conf: 74.64788732394366%, Supp: 7.54985754985755%)
+[Bronx] ==> [Limited Unscreened] (Conf: 49.64028776978417%, Supp: 9.82905982905983%)
+[Limited Unscreened] ==> [Humanities & Interdisciplinary] (Conf: 47.84688995215311%, Supp: 14.245014245014245%)
+[Humanities & Interdisciplinary] ==> [L] (Conf: 45.248868778280546%, Supp: 14.245014245014245%)
+[Manhattan] ==> [Humanities & Interdisciplinary] (Conf: 39.86013986013986%, Supp: 8.11965811965812%)
+[S, Humanities & Interdisciplinary] ==> [Manhattan] (Conf: 39.6551724137931%, Supp: 3.276353276353276%)
+[A, Performing Arts] ==> [Manhattan] (Conf: 39.62264150943396%, Supp: 2.9914529914529915%)
+[A] ==> [Manhattan] (Conf: 39.436619718309856%, Supp: 3.9886039886039883%)
+[Audition] ==> [Manhattan] (Conf: 39.436619718309856%, Supp: 3.9886039886039883%)
+[Science & Math] ==> [Screened] (Conf: 37.704918032786885%, Supp: 3.276353276353276%)
+[Bronx] ==> [Humanities & Interdisciplinary] (Conf: 36.69064748201439%, Supp: 7.264957264957266%)
+[Screened] ==> [Humanities & Interdisciplinary] (Conf: 36.477987421383645%, Supp: 8.262108262108262%)
+[Staten Island] ==> [Ed. Opt.] (Conf: 35.84905660377358%, Supp: 2.7065527065527064%)
+[L] ==> [Brooklyn] (Conf: 35.406698564593306%, Supp: 10.541310541310542%)
+[Limited Unscreened] ==> [Brooklyn] (Conf: 35.406698564593306%, Supp: 10.541310541310542%)
+[Brooklyn] ==> [Limited Unscreened] (Conf: 34.57943925233645%, Supp: 10.541310541310542%)
+[Performing Arts] ==> [Manhattan] (Conf: 33.33333333333333%, Supp: 3.276353276353276%)
+[L] ==> [Bronx] (Conf: 33.014354066985646%, Supp: 9.82905982905983%)
+[Limited Unscreened] ==> [Bronx] (Conf: 33.014354066985646%, Supp: 9.82905982905983%)
+[Science & Math] ==> [L] (Conf: 32.78688524590164%, Supp: 2.849002849002849%)
+[Limited Unscreened, L, Humanities & Interdisciplinary] ==> [Bronx] (Conf: 32.0%, Supp: 4.5584045584045585%)
+[E] ==> [Brooklyn] (Conf: 31.3953488372093%, Supp: 7.6923076923076925%)
+[Ed. Opt.] ==> [Brooklyn] (Conf: 31.3953488372093%, Supp: 7.6923076923076925%)
+[Brooklyn] ==> [Humanities & Interdisciplinary] (Conf: 30.8411214953271%, Supp: 9.401709401709402%)
+[Humanities & Interdisciplinary] ==> [Brooklyn] (Conf: 29.86425339366516%, Supp: 9.401709401709402%)
+[Science & Math] ==> [Brooklyn] (Conf: 29.508196721311474%, Supp: 2.564102564102564%)
+[A, Performing Arts] ==> [Brooklyn] (Conf: 28.30188679245283%, Supp: 2.1367521367521367%)
+[A] ==> [Brooklyn] (Conf: 28.169014084507044%, Supp: 2.849002849002849%)
+[S] ==> [Brooklyn] (Conf: 27.67295597484277%, Supp: 6.267806267806268%)
+[Screened] ==> [Brooklyn] (Conf: 27.67295597484277%, Supp: 6.267806267806268%)
+[Humanities & Interdisciplinary] ==> [Screened] (Conf: 26.244343891402718%, Supp: 8.262108262108262%)
+[Manhattan] ==> [E] (Conf: 25.874125874125873%, Supp: 5.270655270655271%)
+[Manhattan] ==> [Ed. Opt.] (Conf: 25.874125874125873%, Supp: 5.270655270655271%)
+[Humanities & Interdisciplinary] ==> [Manhattan] (Conf: 25.791855203619914%, Supp: 8.11965811965812%)
+[Queens] ==> [Humanities & Interdisciplinary] (Conf: 25.657894736842106%, Supp: 5.555555555555555%)
+[Brooklyn] ==> [Ed. Opt.] (Conf: 25.233644859813083%, Supp: 7.6923076923076925%)
+[Queens] ==> [Ed. Opt.] (Conf: 25.0%, Supp: 5.413105413105413%)
+[Zoned] ==> [Brooklyn] (Conf: 24.137931034482758%, Supp: 0.9971509971509971%)
+[Manhattan] ==> [Screened] (Conf: 23.076923076923077%, Supp: 4.700854700854701%)
+[Ed. Opt.] ==> [Queens] (Conf: 22.093023255813954%, Supp: 5.413105413105413%)
+[E] ==> [Manhattan] (Conf: 21.511627906976745%, Supp: 5.270655270655271%)
+[Ed. Opt.] ==> [Manhattan] (Conf: 21.511627906976745%, Supp: 5.270655270655271%)
+[Science & Math] ==> [Manhattan] (Conf: 21.311475409836063%, Supp: 1.8518518518518516%)
+[S] ==> [Manhattan] (Conf: 20.754716981132077%, Supp: 4.700854700854701%)
+[Screened] ==> [Manhattan] (Conf: 20.754716981132077%, Supp: 4.700854700854701%)
+[Queens] ==> [Limited Unscreened] (Conf: 20.394736842105264%, Supp: 4.415954415954416%)
+[Manhattan] ==> [Limited Unscreened] (Conf: 20.27972027972028%, Supp: 4.131054131054131%)
+[A] ==> [Queens] (Conf: 19.718309859154928%, Supp: 1.9943019943019942%)
+[Audition] ==> [Queens] (Conf: 19.718309859154928%, Supp: 1.9943019943019942%)
+[Manhattan] ==> [A] (Conf: 19.58041958041958%, Supp: 3.9886039886039883%)
+[Performing Arts] ==> [L] (Conf: 17.391304347826086%, Supp: 1.7094017094017095%)
+[Performing Arts] ==> [Limited Unscreened] (Conf: 17.391304347826086%, Supp: 1.7094017094017095%)
+[Performing Arts] ==> [Queens] (Conf: 17.391304347826086%, Supp: 1.7094017094017095%)
+[Bronx] ==> [Ed. Opt.] (Conf: 17.26618705035971%, Supp: 3.418803418803419%)
+[E, Brooklyn, Ed. Opt.] ==> [Humanities & Interdisciplinary] (Conf: 16.666666666666664%, Supp: 1.282051282051282%)
+[Brooklyn, Ed. Opt.] ==> [Humanities & Interdisciplinary] (Conf: 16.666666666666664%, Supp: 1.282051282051282%)
+[Science & Math] ==> [Ed. Opt.] (Conf: 16.39344262295082%, Supp: 1.4245014245014245%)
+[Manhattan] ==> [Performing Arts] (Conf: 16.083916083916083%, Supp: 3.276353276353276%)
+[Staten Island] ==> [Humanities & Interdisciplinary] (Conf: 15.09433962264151%, Supp: 1.1396011396011396%)
+[Limited Unscreened, L, Humanities & Interdisciplinary] ==> [Queens] (Conf: 15.0%, Supp: 2.1367521367521367%)
+[Limited Unscreened, Humanities & Interdisciplinary] ==> [Queens] (Conf: 15.0%, Supp: 2.1367521367521367%)
+[L] ==> [Queens] (Conf: 14.832535885167463%, Supp: 4.415954415954416%)
+[Limited Unscreened] ==> [Queens] (Conf: 14.832535885167463%, Supp: 4.415954415954416%)
+[Humanities & Interdisciplinary] ==> [Ed. Opt.] (Conf: 14.479638009049776%, Supp: 4.5584045584045585%)
+[S] ==> [Science & Math] (Conf: 14.465408805031446%, Supp: 3.276353276353276%)
+[Screened] ==> [Science & Math] (Conf: 14.465408805031446%, Supp: 3.276353276353276%)
+[Limited Unscreened, L, Humanities & Interdisciplinary] ==> [Manhattan] (Conf: 14.000000000000002%, Supp: 1.9943019943019942%)
+[Limited Unscreened, Humanities & Interdisciplinary] ==> [Manhattan] (Conf: 14.000000000000002%, Supp: 1.9943019943019942%)
+[E] ==> [Bronx] (Conf: 13.953488372093023%, Supp: 3.418803418803419%)
+[Ed. Opt.] ==> [Bronx] (Conf: 13.953488372093023%, Supp: 3.418803418803419%)
+[L] ==> [Manhattan] (Conf: 13.875598086124402%, Supp: 4.131054131054131%)
+[Limited Unscreened] ==> [Manhattan] (Conf: 13.875598086124402%, Supp: 4.131054131054131%)
+[Brooklyn, Humanities & Interdisciplinary] ==> [E] (Conf: 13.636363636363635%, Supp: 1.282051282051282%)
+[Brooklyn, Humanities & Interdisciplinary] ==> [Ed. Opt.] (Conf: 13.636363636363635%, Supp: 1.282051282051282%)
+[S] ==> [Bronx] (Conf: 13.20754716981132%, Supp: 2.9914529914529915%)
+[Screened] ==> [Bronx] (Conf: 13.20754716981132%, Supp: 2.9914529914529915%)
+[L, Bronx] ==> [Science & Math] (Conf: 13.043478260869565%, Supp: 1.282051282051282%)
+[A, Performing Arts] ==> [Bronx] (Conf: 11.320754716981133%, Supp: 0.8547008547008548%)
+[Staten Island] ==> [Limited Unscreened] (Conf: 11.320754716981133%, Supp: 0.8547008547008548%)

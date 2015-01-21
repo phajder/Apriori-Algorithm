@@ -179,6 +179,7 @@ public class MainFrame extends javax.swing.JFrame {
     }//GEN-LAST:event_chooseFileButtonActionPerformed
 
     private void computeButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_computeButtonActionPerformed
+        this.ruleTextBox.setText("");
         MyWorker mw = new MyWorker();
         mw.execute();
     }//GEN-LAST:event_computeButtonActionPerformed
