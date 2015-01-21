@@ -1,0 +1,73 @@
+Large ItemSets (decreasing order of support) :
+
+[Closed], 67.97300089537846%
+[Cleaning crew dispatched.  Property cleaned.], 62.56629244438322%
+[Open], 30.794131827260827%
+[MANHATTAN], 28.576348233349403%
+[BROOKLYN], 27.02665472828707%
+[QUEENS], 23.562228803636614%
+[MANHATTAN, Closed], 23.27984020938081%
+[BRONX], 19.443487843515395%
+[Cleaning crew dispatched.  Property cleaned., BROOKLYN], 18.444796473586337%
+[BROOKLYN, Cleaning crew dispatched.  Property cleaned., Closed], 18.121082719195535%
+[MANHATTAN, Cleaning crew dispatched.  Property cleaned., Closed], 17.59074316412976%
+[Site downloaded for cleaning], 15.097458502651698%
+[Cleaning crew dispatched.  Property cleaned., QUEENS], 13.995454232385152%
+[Cleaning crew dispatched.  Property cleaned., Closed, QUEENS], 13.823266065156004%
+[BRONX, Closed], 11.171568289827123%
+[BRONX, Cleaning crew dispatched.  Property cleaned., Closed], 11.020042702665473%
+[Unspecified], 10.599903574626351%
+[BRONX, Open], 7.720917418554997%
+[Notice of Intent to Clean and Forever Graffiti Free Form sent, Open], 7.59694193815001%
+[Notice of Intent to Clean and Forever Graffiti Free Form sent], 7.59694193815001%
+
+
+High-Confidence Rules (decreasing order of confidence) with support(LHS union RHS) :
+
+[Notice of Intent to Clean and Forever Graffiti Free Form sent] ==> [Open] (Conf: 100.0%, Supp: 7.59694193815001%)
+[Site downloaded for cleaning] ==> [Open] (Conf: 100.0%, Supp: 15.097458502651698%)
+[Cleaning crew dispatched.  Property cleaned., BROOKLYN] ==> [Closed] (Conf: 98.24495892457058%, Supp: 18.121082719195535%)
+[Cleaning crew dispatched.  Property cleaned.] ==> [Closed] (Conf: 98.05151915455747%, Supp: 61.34720022040086%)
+[Closed] ==> [Cleaning crew dispatched.  Property cleaned.] (Conf: 90.25230519809504%, Supp: 61.34720022040086%)
+[MANHATTAN] ==> [Closed] (Conf: 81.46541335261509%, Supp: 23.27984020938081%)
+[BROOKLYN] ==> [Closed] (Conf: 68.96024464831805%, Supp: 18.63764722088298%)
+[BROOKLYN] ==> [Cleaning crew dispatched.  Property cleaned.] (Conf: 68.2466870540265%, Supp: 18.444796473586337%)
+[MANHATTAN] ==> [Cleaning crew dispatched.  Property cleaned.] (Conf: 62.15955651964329%, Supp: 17.762931331358907%)
+[QUEENS] ==> [Closed] (Conf: 59.719380298158434%, Supp: 14.071217025965977%)
+[BRONX] ==> [Cleaning crew dispatched.  Property cleaned.] (Conf: 59.51115834218916%, Supp: 11.571044837798746%)
+[BRONX] ==> [Closed] (Conf: 57.456606447042155%, Supp: 11.171568289827123%)
+[Open] ==> [Site downloaded for cleaning] (Conf: 49.02706329680161%, Supp: 15.097458502651698%)
+[BRONX, Open] ==> [Site downloaded for cleaning] (Conf: 46.654772524531666%, Supp: 3.6021764584337763%)
+[Closed] ==> [MANHATTAN] (Conf: 34.24865741209849%, Supp: 23.27984020938081%)
+[Notice of Intent to Clean and Forever Graffiti Free Form sent] ==> [QUEENS] (Conf: 32.910244786944695%, Supp: 2.500172188167229%)
+[Site downloaded for cleaning] ==> [QUEENS] (Conf: 29.972627737226276%, Supp: 4.52510503478201%)
+[Cleaning crew dispatched.  Property cleaned.] ==> [BROOKLYN] (Conf: 29.480405107881992%, Supp: 18.444796473586337%)
+[Notice of Intent to Clean and Forever Graffiti Free Form sent] ==> [BRONX] (Conf: 29.193109700815956%, Supp: 2.2177835939114265%)
+[Notice of Intent to Clean and Forever Graffiti Free Form sent, Open] ==> [BRONX] (Conf: 29.193109700815956%, Supp: 2.2177835939114265%)
+[Site downloaded for cleaning] ==> [BROOKLYN] (Conf: 28.51277372262774%, Supp: 4.3047041807287005%)
+[Cleaning crew dispatched.  Property cleaned.] ==> [MANHATTAN] (Conf: 28.39057683839718%, Supp: 17.762931331358907%)
+[Closed] ==> [BROOKLYN] (Conf: 27.41919140743743%, Supp: 18.63764722088298%)
+[Open] ==> [BROOKLYN] (Conf: 26.168642361887724%, Supp: 8.058406226324127%)
+[Unspecified] ==> [Closed] (Conf: 25.583090379008745%, Supp: 2.417521867897238%)
+[Open] ==> [BRONX] (Conf: 25.072690673227466%, Supp: 7.720917418554997%)
+[Unspecified] ==> [QUEENS] (Conf: 23.97959183673469%, Supp: 2.265996280735588%)
+[Site downloaded for cleaning] ==> [BRONX] (Conf: 23.85948905109489%, Supp: 3.6021764584337763%)
+[Notice of Intent to Clean and Forever Graffiti Free Form sent] ==> [BROOKLYN] (Conf: 23.30009066183137%, Supp: 1.7700943591156415%)
+[Notice of Intent to Clean and Forever Graffiti Free Form sent, Open] ==> [BROOKLYN] (Conf: 23.30009066183137%, Supp: 1.7700943591156415%)
+[Open] ==> [Unspecified] (Conf: 22.813688212927758%, Supp: 7.025277222949239%)
+[BRONX, Open] ==> [Unspecified] (Conf: 22.658340767172167%, Supp: 1.749431779048144%)
+[Closed] ==> [QUEENS] (Conf: 20.70118553044888%, Supp: 14.071217025965977%)
+[Unspecified] ==> [Cleaning crew dispatched.  Property cleaned.] (Conf: 20.55393586005831%, Supp: 1.9422825263447896%)
+[Unspecified] ==> [BRONX] (Conf: 19.6064139941691%, Supp: 1.8527446793856328%)
+[QUEENS] ==> [Site downloaded for cleaning] (Conf: 19.204910844782226%, Supp: 4.52510503478201%)
+[Unspecified] ==> [BROOKLYN] (Conf: 18.658892128279884%, Supp: 1.7632068324264758%)
+[BRONX] ==> [Site downloaded for cleaning] (Conf: 18.526390364860077%, Supp: 3.6021764584337763%)
+[Cleaning crew dispatched.  Property cleaned.] ==> [BRONX] (Conf: 18.494055482166445%, Supp: 11.571044837798746%)
+[MANHATTAN] ==> [Open] (Conf: 17.932031814895154%, Supp: 5.124319856739445%)
+[Open] ==> [MANHATTAN] (Conf: 16.64057257884142%, Supp: 5.124319856739445%)
+[Closed] ==> [BRONX] (Conf: 16.435302462255546%, Supp: 11.171568289827123%)
+[Notice of Intent to Clean and Forever Graffiti Free Form sent] ==> [MANHATTAN] (Conf: 13.236627379873072%, Supp: 1.0055788966182244%)
+[Notice of Intent to Clean and Forever Graffiti Free Form sent, Open] ==> [MANHATTAN] (Conf: 13.236627379873072%, Supp: 1.0055788966182244%)
+[MANHATTAN] ==> [Unspecified] (Conf: 12.002892263195951%, Supp: 3.4299882912046282%)
+[BRONX] ==> [Notice of Intent to Clean and Forever Graffiti Free Form sent] (Conf: 11.40630534891959%, Supp: 2.2177835939114265%)
+[QUEENS] ==> [Notice of Intent to Clean and Forever Graffiti Free Form sent] (Conf: 10.610932475884244%, Supp: 2.500172188167229%)
